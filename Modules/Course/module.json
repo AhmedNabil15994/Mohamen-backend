@@ -1,0 +1,17 @@
+{
+    "name": "Course",
+    "alias": "course",
+    "description": "",
+    "keywords": [],
+    "priority": 1,
+    "providers": [
+        "Modules\\Course\\Providers\\CourseServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "composer.php"
+    ],
+    "requires": [
+       
+    ]
+}

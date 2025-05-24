@@ -1,0 +1,24 @@
+[15-Jun-2022 08:35:27 UTC] PHP Warning:  require(/home/pwpkw34/public_html/vendor/composer/../symfony/polyfill-intl-grapheme/bootstrap.php): Failed to open stream: No such file or directory in /home/pwpkw34/public_html/vendor/composer/autoload_real.php on line 71
+[15-Jun-2022 08:35:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pwpkw34/public_html/vendor/composer/../symfony/polyfill-intl-grapheme/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwpkw34/public_html/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/pwpkw34/public_html/vendor/composer/autoload_real.php(61): composerRequire76386cde21bc595c05ef8c29c2ca1a32()
+#1 /home/pwpkw34/public_html/vendor/autoload.php(7): ComposerAutoloaderInit76386cde21bc595c05ef8c29c2ca1a32::getLoader()
+#2 /home/pwpkw34/public_html/public/index.php(34): require('/home/pwpkw34/p...')
+#3 {main}
+  thrown in /home/pwpkw34/public_html/vendor/composer/autoload_real.php on line 71
+[15-Jun-2022 08:35:30 UTC] PHP Warning:  require(/home/pwpkw34/public_html/vendor/psy/psysh/src/functions.php): Failed to open stream: No such file or directory in /home/pwpkw34/public_html/vendor/composer/autoload_real.php on line 71
+[15-Jun-2022 08:35:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pwpkw34/public_html/vendor/composer/../psy/psysh/src/functions.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwpkw34/public_html/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/pwpkw34/public_html/vendor/composer/autoload_real.php(61): composerRequire76386cde21bc595c05ef8c29c2ca1a32()
+#1 /home/pwpkw34/public_html/vendor/autoload.php(7): ComposerAutoloaderInit76386cde21bc595c05ef8c29c2ca1a32::getLoader()
+#2 /home/pwpkw34/public_html/public/index.php(34): require('/home/pwpkw34/p...')
+#3 {main}
+  thrown in /home/pwpkw34/public_html/vendor/composer/autoload_real.php on line 71
+[15-Jun-2022 08:35:32 UTC] PHP Warning:  require(/home/pwpkw34/public_html/vendor/laravel/framework/src/Illuminate/Collections/helpers.php): Failed to open stream: No such file or directory in /home/pwpkw34/public_html/vendor/composer/autoload_real.php on line 71
+[15-Jun-2022 08:35:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/pwpkw34/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/helpers.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwpkw34/public_html/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home/pwpkw34/public_html/vendor/composer/autoload_real.php(61): composerRequire76386cde21bc595c05ef8c29c2ca1a32()
+#1 /home/pwpkw34/public_html/vendor/autoload.php(7): ComposerAutoloaderInit76386cde21bc595c05ef8c29c2ca1a32::getLoader()
+#2 /home/pwpkw34/public_html/public/index.php(34): require('/home/pwpkw34/p...')
+#3 {main}
+  thrown in /home/pwpkw34/public_html/vendor/composer/autoload_real.php on line 71

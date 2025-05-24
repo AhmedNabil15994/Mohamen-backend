@@ -1,0 +1,15 @@
+{
+    "name": "Authorization",
+    "alias": "authorization",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Authorization\\Providers\\AuthorizationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "composer.php"
+    ],
+    "requires": []
+}

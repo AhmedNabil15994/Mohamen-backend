@@ -1,0 +1,8 @@
+{
+    "indentSize": 2,
+    "wrapAttributes": "auto",
+    "wrapLineLength": 200,
+    "endWithNewLine": true,
+    "useTabs": false,
+    "sortTailwindcssClasses": true
+}

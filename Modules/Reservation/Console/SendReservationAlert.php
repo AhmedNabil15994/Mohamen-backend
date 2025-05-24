@@ -1,0 +1,48 @@
+<?php
+
+namespace Modules\Reservation\Console;
+
+use Illuminate\Console\Command;
+use Modules\Reservation\Entities\Reservation;
+use Modules\Reservation\Repositories\Api\ReservationRepository;
+
+class SendReservationAlert extends Command {
+  /**
+   * The console command name.
+   *
+   * @var string
+   */
+  protected $signature = 'send-reservation-alert';
+
+  public $reservationRepository;
+  /**
+   * The console command description.
+   *
+   * @var string
+   */
+  protected $description = 'this command for notifying users if there is any new consultation in an hour';
+
+  /**
+   * Create a new command instance.
+   *
+   * @return void
+   */
+  public function __construct(ReservationRepository $reservationRepository) {
+    parent::__construct();
+    $this->reservationRepository = $reservationRepository;
+  }
+
+  /**
+   * Execute the console command.
+   *
+   * @return mixed
+   */
+  public function handle() {
+
+    Reservation::where('paid', 'paid')->chunk(100, function ($reservations) {
+      foreach ($reservations as $key => $reservation) {
+        $this->reservationRepository->notifyUsers($reservation);
+      }
+    });
+  }
+}
